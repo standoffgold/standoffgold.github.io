@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.middleimg>img {
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
+.middleimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.lal {
+    position: absolute;
+    color: yellow;
+    font-size: 70px;
+    background-color: red;
+}
+
+.lsl {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    color: deepskyblue;
+    background-color: darkmagenta;
+    font-size: 70px;
+}
+
+.whyi {
+    position: absolute;
+    bottom: 3vh;
+    color: white;
+}
+
+.shvh {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shvh>img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.shvh>h1 {
+    position: absolute;
+    left: 32vw;
+    top: 105vh;
+    color: darkslateblue;
+    background-color: plum;
+    font-size: 70px;
+}
+
+.nuansrule>div>h1:nth-of-type(1) {
+    top: 140vh;
+}
+
+.nuansrule>div>h1:nth-of-type(2) {
+    top: 155vh;
+}
+
+.nuansrule>div>h1:nth-of-type(3) {
+    top: 170vh;
+}
+
+.nuansrule>div>h1:nth-of-type(4) {
+    top: 185vh;
+}
+
+.nuansrule>div>h1 {
+    color: purple;
+    position: absolute;
+    background-color: plum;
+}
+
+.nuansrule>.nuanses>h1 {
+    left: 70vw;
+    background-color: red;
+    color: yellow;
+}
+
+.nuansrule>.rules>h1 {
+    left: 2vw;
+}
+.cardswithpayment {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.feedback {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.card {
+    background-color: white;
+    height: 65vh;
+    width: 20vw;
+    border-radius: 30%; 
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+    border-radius: 20%;
+}
+.name > h1 {
+    color: white;
+}
+.card > .fhr {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    font-size: 20px;
+    flex-direction: column;
+}
+.fhr > h2:nth-of-type(3) {
+    font-size: 20px;
+}
+.feedback > div {
+    height: 15vh;
+    width: 20vw;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telegram, .telegramchannel {
+    background:linear-gradient(120deg,#0088cc, #FFFFFF);
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.avito {
+    background:linear-gradient(120deg, blue, red, purple, green);
+}
+.vk {
+    background: -webkit-linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);background: linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+}
+.feedback > div > a:hover {
+    color: purple;
+}
+@media (max-width:1000px) {
+    .shvh > h1 {
+        left: 10vw
+    }
+    .lal {
+        top:20vh;
+        font-size: 55px;
+    }
+    .lsl {
+        left: 13vw;
+    }
+    .nuansrule > .nuanses > h1 {
+        left: 60vw;
+    }
+    .nuansrule > div > h1 {
+        font-size: 20px;
+    }
+    .cardswithpayment {
+        height: 130vh;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 40vw;
+        height: 60vh;
+        align-items: center;
+    }
+    .card > .fhr {
+        width: 40vw;
+    }
+    a {
+        font-size: 30px;
+    }
+}
+@media (max-width:750px) {
+    .middleimg {
+        height: 70vh;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+    .lal {
+        font-size: 35px;
+        left:9vw;
+        top:10vh;
+    }
+    .lsl {
+        bottom: 70vh;
+        left: 10vw;
+        font-size: 50px;
+    }
+    .whyi {
+        bottom: 35vh;
+    }
+    .shvh {
+        height: 30vh;
+    }
+    .shvh > h1 {
+        top:70vh;
+        font-size: 40px;
+        left: 20vw;
+    }
+    .nuansrule>div>h1:nth-of-type(1) {
+        top: 85vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(2) {
+        top: 100vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(3) {
+        top: 115vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(4) {
+        top: 130vh;
+    }
+    .nuansrule > div > h1 {
+        font-size: 15px;
+    }
+    .cardswithpayment {
+        position: absolute;
+        top: 135vh;
+        left: 0;
+}
+.feedback {
+    position: absolute;
+    top: 265vh;
+    left: 0;
+}
+.card:nth-of-type(4) > h2:nth-of-type(5) {
+    font-size: 18px;
+}
+h2 {
+    font-size: 20px;
+}
+.feedback {
+    height: 40vh;
+    flex-wrap: wrap;
+}
+.feedback > div {
+    width: 40vw;
+    height: 15vh;
+}
+a {
+    font-size: 25px;
+}
+}
+@media(max-width:500px) {
+    .lal, .lsl {
+        display: none;
+    }
+    .nuansrule>div>h1:nth-of-type(1) {
+        top: 85vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(2) {
+        top: 95vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(3) {
+        top: 105vh;
+    }
+    
+    .nuansrule>div>h1:nth-of-type(4) {
+        top: 115vh;
+    }
+    .shvh > h1 {
+        font-size: 32px;
+        left: 1vh;
+    }
+    .card {
+        width: 80vw;
+        height: 70vh;
+        justify-content: center;
+    }
+    .cardswithpayment {
+        height: 290vh;
+    }
+    .feedback {
+        top:425vh
+    }
+    .card > .fhr{
+        align-items: center;
+    }
+    .whyi > h1 {
+        font-size: 30px;
+    }
+}
